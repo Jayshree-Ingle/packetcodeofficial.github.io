@@ -1,0 +1,65 @@
+body{
+    margin:0px;
+}
+.button button {
+    background-color:skyblue;
+    border-radius: 50px;
+    border-color: transparent;
+}
+.button button a{
+    color: azure;
+    text-decoration: none;
+}
+.gradient{
+    min-height: 500px;
+    background-image: linear-gradient(red,blue,yellow);
+    
+}
+.transition{
+background: none;
+    transition: background 3s ;
+}
+.transition:hover{
+    background: lightgreen;
+}
+
+
+@media(min-width:1440px) and (max-width:2560px){
+    .button .xl{
+    padding: 15px 45px;
+    font-size: 36px;
+      }
+}
+
+ @media(min-width:1024px) and (max-width:1439px){
+    .button .lg{
+    padding: 13px 35px;
+    font-size: 24px;
+            }
+}
+
+@media(min-width:768px) and (max-width:1023px){
+    .button .md{
+    padding: 11px 25px;
+    font-size: 18px;
+       }
+}
+
+@media(min-width:425px) and (max-width:767px){
+    .button .sm{
+    padding: 9px 15px;
+    font-size: 16px;
+            }
+}
+@media(min-width:320px) and (max-width:424px){
+    .button .xs{
+    padding: 7px 5px;
+    font-size: 12px;
+             }
+}
+
+.background{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRDOAkOq8mq60yxJi62ez_cGSG28hxBtsGHXw&usqp=CAU');
+ min-height: 500px;
+}
+
